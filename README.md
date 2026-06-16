@@ -1,0 +1,1 @@
+# agrocd-platform-config
