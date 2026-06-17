@@ -17,22 +17,22 @@ spec:
   namespaceResourceWhitelist:
     - group: apps
       kind: Deployment
-    - group: ""
-      kind: Service
-    - group: ""
-      kind: ConfigMap
-    - group: ""
-      kind: Secret
-    - group: rbac.authorization.k8s.io
-      kind: Role
-    - group: rbac.authorization.k8s.io
-      kind: RoleBinding
-    - group: batch
-    kind: Job 
-    - group: batch
-      kind: CronJob
-    - group: ""
-      kind: ServiceAccount
+    # - group: ""
+    #   kind: Service
+    # - group: ""
+    #   kind: ConfigMap
+    # - group: ""
+    #   kind: Secret
+    # - group: rbac.authorization.k8s.io
+    #   kind: Role
+    # - group: rbac.authorization.k8s.io
+    #   kind: RoleBinding
+    # - group: batch
+    #   kind: Job 
+    # - group: batch
+    #   kind: CronJob
+    # - group: ""
+    #   kind: ServiceAccount
   clusterResourceBlacklist:
     - group: rbac.authorization.k8s.io
       kind: ClusterRole
