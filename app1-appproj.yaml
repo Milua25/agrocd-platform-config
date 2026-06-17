@@ -23,6 +23,14 @@ spec:
       kind: ConfigMap
     - group: ""
       kind: Secret
+    - group: rbac.authorization.k8s.io
+      kind: Role
+    - group: rbac.authorization.k8s.io
+      kind: RoleBinding 
+    - group: batch
+      kind: CronJob
+    - group: rbac.authorization.k8s.io
+      kind: ServiceAccount
   clusterResourceBlacklist:
     - group: rbac.authorization.k8s.io
       kind: ClusterRole
