@@ -29,7 +29,7 @@ spec:
       kind: RoleBinding 
     - group: batch
       kind: CronJob
-    - group: rbac.authorization.k8s.io
+    - group: ""
       kind: ServiceAccount
   clusterResourceBlacklist:
     - group: rbac.authorization.k8s.io
